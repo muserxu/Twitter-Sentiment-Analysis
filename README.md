@@ -1,1 +1,4 @@
 # Twitter-Sentiment-Analysis
+A python application that let users analysis tweets sentiment by using the twitter API and Repustate API. Users need to install tweepy python libary and get twitter API keys from https://developer.twitter.com/en/docs and repustate API keys from https://www.repustate.com/. 
+
+ When users run the python script, it will ask users to input the search keywords query from the command line, and then it will generate 3 files under the same folder. The 'tweet.txt' file stores all the tweets that have been searched for, the 'record.txt' file contains the entities' titles and their occurrences, and the 'ErrorLog.txt' contains tweets that fail to post Repustate API requests (usually they are identical tweets that have been analyzed already). If the failCount is less than the number of tweets that have been analyzed, the required output will be printed in the command prompt. 
